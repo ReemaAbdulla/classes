@@ -22,7 +22,7 @@ function setAge($age)
 		return "you are not allowed to register";
 	}
 	else{
-		return welcomStuden($name);
+		return $this->welcomStudent('gggg');
 	}
 }
 
@@ -35,7 +35,8 @@ $y= new student();
 echo $y->getGender();
 echo "<br>";
 $z = new student();
-echo $z->setAge("25");
+echo $z->setAge("10");
+
 
 
 
